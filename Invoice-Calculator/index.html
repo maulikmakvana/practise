@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+
+    <h1>Invoice Calculator</h1>
+
+    <input id="name" placeholder="Item Name">
+    <input id="qty" type="number" placeholder="Quantity">
+    <input id="price" type="number" placeholder="Price">
+    <input id="discount" type="number" placeholder="Discount %">
+
+    <button onclick="addItem()">Add Item</button>
+
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+
+        <tbody id="list"></tbody>
+    </table>
+
+    <h3>Subtotal: ₹<span id="subtotal">0</span></h3>
+    <h3>Discount: ₹<span id="discountTotal">0</span></h3>
+    <h3>GST: ₹<span id="gst">0</span></h3>
+    <h2>Grand Total: ₹<span id="grand">0</span></h2>
+
+    <button onclick="reset()">Reset</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

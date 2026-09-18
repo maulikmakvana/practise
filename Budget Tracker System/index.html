@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>💰 Budget Tracker</h1>
+    <p class="subtitle">Track your daily expenses</p>
+
+    <div class="form">
+
+        <input type="date" id="date">
+
+        <input type="text" id="description" placeholder="Expense Description">
+
+        <input type="number" id="amount" placeholder="Amount">
+
+        <button onclick="addExpense()">+ Add Expense</button>
+
+    </div>
+
+    <div class="total-box">
+        <p>Total Expenses</p>
+        <h2>₹<span id="total">0</span></h2>
+    </div>
+
+    <div class="table-box">
+
+        <h2>Expense List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="list"></tbody>
+        </table>
+
+    </div>
+
+    <button class="clear" onclick="clearAll()">Clear All</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
