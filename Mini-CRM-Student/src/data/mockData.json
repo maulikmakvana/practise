@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "customerName": "Rahul Traders",
+    "contactPerson": "Rahul Shah",
+    "phone": "9876543210",
+    "email": "rahul@gmail.com",
+    "address": "Surat",
+    "leadStatus": "New",
+    "followUpDate": "2026-09-28",
+    "notes": "New business lead",
+    "createdAt": "2026-09-20",
+    "updatedAt": "2026-09-20"
+  },
+  {
+    "id": 2,
+    "customerName": "Patel Electronics",
+    "contactPerson": "Amit Patel",
+    "phone": "9876501234",
+    "email": "amit@gmail.com",
+    "address": "Ahmedabad",
+    "leadStatus": "Interested",
+    "followUpDate": "2026-09-26",
+    "notes": "Interested in product",
+    "createdAt": "2026-09-21",
+    "updatedAt": "2026-09-21"
+  },
+  {
+    "id": 3,
+    "customerName": "Royal Fashion",
+    "contactPerson": "Neha Patel",
+    "phone": "9825012345",
+    "email": "neha@gmail.com",
+    "address": "Vadodara",
+    "leadStatus": "Follow-up",
+    "followUpDate": "2026-09-25",
+    "notes": "Call again",
+    "createdAt": "2026-09-22",
+    "updatedAt": "2026-09-22"
+  },
+  {
+    "id": 4,
+    "customerName": "Shree Motors",
+    "contactPerson": "Kunal Shah",
+    "phone": "9812345678",
+    "email": "kunal@gmail.com",
+    "address": "Surat",
+    "leadStatus": "Converted",
+    "followUpDate": "2026-09-24",
+    "notes": "Deal completed",
+    "createdAt": "2026-09-18",
+    "updatedAt": "2026-09-23"
+  }
+]
