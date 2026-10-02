@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "id": "2",
+      "title": "Explain useState with example",
+      "category": "React JS",
+      "difficulty": "Easy",
+      "status": "Solved",
+      "lastPracticed": "2026-09-21",
+      "notes": "useState is used to manage component state."
+    },
+    {
+      "id": "3",
+      "title": "What is useEffect?",
+      "category": "React JS",
+      "difficulty": "Medium",
+      "status": "Not Solved",
+      "lastPracticed": "2026-09-20",
+      "notes": "useEffect is used for side effects in React."
+    },
+    {
+      "id": "4",
+      "title": "What is JavaScript Array?",
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "status": "Solved",
+      "lastPracticed": "2026-09-22",
+      "notes": "Array is used to store multiple values."
+    },
+    {
+      "title": "what is react",
+      "category": "React JS",
+      "difficulty": "Easy",
+      "status": "Solved",
+      "lastPracticed": "2026-10-03",
+      "notes": "fcvsdatert",
+      "id": "Iwd5ff523xA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
